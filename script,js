@@ -1,0 +1,11 @@
+document.getElementById('loginForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    const email = document.getElementById('email').value;
+    // Aquí puedes agregar la lógica para manejar el inicio de sesión con el correo electrónico
+    alert('Correo electrónico ingresado: ' + email);
+});
+
+document.getElementById('googleLogin').addEventListener('click', function() {
+    // Aquí puedes agregar la lógica para manejar el inicio de sesión con Google
+    alert('Iniciar sesión con Google');
+});
